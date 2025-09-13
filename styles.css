@@ -210,13 +210,17 @@ color: #CD825B;
  .our-master-bottom{
     /* height: 1000px; */
     margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
  }
  .masters-images{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1500px;
+    width: 1400px;
     flex-wrap: wrap;
     gap: 30px;
     /* margin-left: 70px; */
@@ -329,16 +333,18 @@ color: #CD825B;
 
 .makeup-info{
     display: flex;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
 }
 
 .make-up-artist{
     width: 560px;
     height: 560px;
     border-radius: 50%;
-    margin-left: 300px;
-    margin-right: 90px;
-}
+    /* margin-left: 300px; */
+    /* margin-right: 90px; */
+} 
 .info-details{
     li{
         list-style: none;
@@ -375,4 +381,9 @@ margin-bottom: 50px;
 }
 .details{
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
