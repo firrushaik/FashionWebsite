@@ -35,7 +35,7 @@ color: #CD825B;
     color: #CD825B;
 }
 .background-image{
-    background-image: url("Images/headerBcImage.jpg");
+    background-image: url("images/headerBcImage.jpg");
     height: 1100px;
     width: 100%;
     object-fit: cover;
@@ -227,7 +227,7 @@ color: #CD825B;
       0deg,
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.25)
-    ), url("Images/image-new1.jpg");
+    ), url("images/image-new1.jpg");
 
     height: 540px;
     width: 370px;
